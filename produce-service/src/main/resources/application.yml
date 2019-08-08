@@ -1,0 +1,13 @@
+server:
+#  服务端口号
+  port: 8763
+
+eureka:
+  client:
+#    服务注册地址
+    service-url:
+      defaultZone: http://localhost:8888/eureka
+spring:
+  application:
+#    服务的名字(注册到注册中心的名字，供消费调用是使用)
+    name: produce-service

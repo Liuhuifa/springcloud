@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-client" />
+        <module name="config-server" />
+        <module name="consumer-service" />
+        <module name="eureka-server" />
+        <module name="hystrix-service" />
+        <module name="newpro-service" />
+        <module name="produce-service" />
+        <module name="produce2-service" />
+        <module name="turbine-service" />
+        <module name="zuul-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="consumer-service" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="hystrix-service" target="1.8" />
+      <module name="newpro-service" target="1.8" />
+      <module name="produce-service" target="1.8" />
+      <module name="produce2-service" target="1.8" />
+      <module name="ribbon-service" target="1.8" />
+      <module name="turbine-service" target="1.8" />
+      <module name="user-feign" target="1.8" />
+      <module name="user-server" target="1.8" />
+      <module name="user-service" target="1.8" />
+      <module name="zuul-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

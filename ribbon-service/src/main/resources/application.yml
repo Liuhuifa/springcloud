@@ -1,0 +1,15 @@
+server:
+  port: 8887
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka
+  instance:
+    hostname: localhost
+producer:
+  ribbon:
+    listOfServers: localhost:8762,localhsot:8763
+spring:
+  application:
+    name: ribbon-service

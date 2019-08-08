@@ -1,0 +1,36 @@
+server:
+  port: 2626
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka
+feign:
+  hystrix:
+#    在feign中开启hystrix
+    enabled: true
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+#          是否开启超时(默认开启)
+          enable: true
+        isolation:
+          thread:
+#            超时时间
+            timeoutInMilliseconds: 4000
+
+spring:
+  application:
+    name: hystrix-service
+turbine:
+#  要监控的服务列表
+  app-config: newpro-service,produce-service
+#  指定的集群名称
+#  cluster-name-expression: "'default'"
+#  按主机名和端口区分服务，turbine默认相同host的为同一服务，将该属性设为true后就可以按主机名和端口区分服务
+  combine-host-port: true
+  instanceUrlSuffix: /hystrix.stream

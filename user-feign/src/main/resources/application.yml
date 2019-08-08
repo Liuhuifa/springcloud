@@ -1,0 +1,14 @@
+server:
+  port: 8760
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka
+    register-with-eureka: true
+    fetch-registry: true
+spring:
+  application:
+    name: user-feign

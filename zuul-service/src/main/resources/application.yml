@@ -1,0 +1,26 @@
+server:
+#  网关端口号
+  port: 8761
+
+eureka:
+  instance:
+#    服务地址
+    hostname: localhost
+  client:
+    serviceUrl:
+#      注册地址
+      defaultZone: http://localhost:8888/eureka
+spring:
+  application:
+#    注册到服务中的名字
+    name: zuul-service
+zuul:
+  routes:
+#    网关->>>>>>过滤器
+    api-a:
+#      条件
+      path: /api-a/**
+#      符合条件的转发地址
+      service-id: produce-service
+
+#  NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule

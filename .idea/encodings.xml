@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/newpro-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/produce-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/produce2-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbon-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/turbine-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul-service" charset="UTF-8" />
+  </component>
+</project>

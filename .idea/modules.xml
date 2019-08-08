@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-service/consumer-service.iml" filepath="$PROJECT_DIR$/consumer-service/consumer-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-service/hystrix-service.iml" filepath="$PROJECT_DIR$/hystrix-service/hystrix-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/newpro-service/newpro-service.iml" filepath="$PROJECT_DIR$/newpro-service/newpro-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/produce-service/produce-service.iml" filepath="$PROJECT_DIR$/produce-service/produce-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/produce2-service/produce2-service.iml" filepath="$PROJECT_DIR$/produce2-service/produce2-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turbine-service/turbine-service.iml" filepath="$PROJECT_DIR$/turbine-service/turbine-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-service/zuul-service.iml" filepath="$PROJECT_DIR$/zuul-service/zuul-service.iml" />
+    </modules>
+  </component>
+</project>
