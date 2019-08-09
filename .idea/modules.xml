@@ -10,7 +10,6 @@
       <module fileurl="file://$PROJECT_DIR$/newpro-service/newpro-service.iml" filepath="$PROJECT_DIR$/newpro-service/newpro-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/produce-service/produce-service.iml" filepath="$PROJECT_DIR$/produce-service/produce-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/produce2-service/produce2-service.iml" filepath="$PROJECT_DIR$/produce2-service/produce2-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/turbine-service/turbine-service.iml" filepath="$PROJECT_DIR$/turbine-service/turbine-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul-service/zuul-service.iml" filepath="$PROJECT_DIR$/zuul-service/zuul-service.iml" />
     </modules>
   </component>
